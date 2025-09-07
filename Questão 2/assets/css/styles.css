@@ -1,1 +1,102 @@
-blabla
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(57, 144, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    color: white;
+}
+
+main {
+    background-color: rgb(167, 162, 162);
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(180, 177, 177);
+}
+
+.menu h3 {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(57, 144, 184);
+    border: 0.2rem solid white;
+}
+
+.menu h3:hover {
+    background-color: rgb(57, 104, 184);
+    cursor: pointer;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 247, 247);
+}
+
+.card img {
+    width: 95%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.card h4 {
+    flex: 1;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.card p {
+    display: inline-block;
+    background-color: rgb(57, 144, 184);
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.card p:hover {
+    background-color: rgb(57, 104, 184);
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(57, 144, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    color: white;
+}
+
+
+
